@@ -1,0 +1,34 @@
+---
+title: "Day3COmps"
+format: html
+editor: visual
+---
+
+# Day 3 Computations
+
+## Switch statements
+
+```{r}
+house_type <- "single"
+#create switch absed on value do diffferent thigns 
+
+switch(house_type,
+       "single" = print("400"), 
+       "double" = print ("750"),
+       "whole" = print ("1100"))
+       
+if(house_type == "whole") {
+  print("110")
+  } else if (house_type == "double") {
+    print("750")
+  } else if (house_type == "single") {
+    print("400")
+  }
+  
+```
+
+```{r}
+
+
+
+```
